@@ -29,7 +29,8 @@
 # Output the following information to a file called cpu
     # 1. The first five lines of the command lscpu
     # 2. The last 12 lines of the command lscpu
-    
+    lscpu|head -n 5
+    lscpu|tail -n 12
 
 # Output the following information to a file called block_dev
     # 1. Only the name, size, and type of the block devices
